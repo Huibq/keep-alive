@@ -22,7 +22,7 @@ ua_list = [
 
 def request(uri, head=None):
     try:
-        info = requests.get(uri, headers=head)
+        info = requests.get(uri, headers=head, timeout=6)
         return info
     except Exception as c:
         print(c)
