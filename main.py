@@ -10,6 +10,7 @@ OptikServers_url_3 = os.environ['OptikServers_url_3']
 zeabur_url = os.environ['zeabur_url']
 koyeb_url = os.environ['koyeb_url']
 vercel_url = os.environ['vercel_url']
+vercel_share_url = os.environ['vercel_share_url']
 ua_list = [
     'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.39',
     'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1788.0',
@@ -39,6 +40,7 @@ while (time.time() - start_time) < 996:
         print(req_3.text)
         print("----------------")
         if number % 5 == 0:
+            req_1 = request(vercel_share_url, head=headers)
             req_2 = request(OptikServers_url, head=headers)
             req_4 = request(koyeb_url, head=headers)
             req_5 = request(OptikServers_url_2, head=headers)

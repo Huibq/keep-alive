@@ -41,5 +41,6 @@ jobs:
         OptikServers_url_3: ${{secrets.OptikServers_url_3}}
         koyeb_url: ${{secrets.koyeb_url}}
         vercel_url: ${{secrets.vercel_url}}
+        vercel_share_url: ${{secrets.vercel_share_url}}
       run: |
         python ./main.py
