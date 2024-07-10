@@ -37,14 +37,14 @@ while (time.time() - start_time) < 996:
         headers = {'User-Agent': random.choice(ua_list)}
         req = request(render_url, head=headers)
         req_3 = request(zeabur_url, head=headers)
+        req_1 = request(vercel_share_url, head=headers)
+        req_6 = request(vercel_url, head=headers)
         print(req_3.text)
         print("----------------")
         if number % 5 == 0:
-            req_1 = request(vercel_share_url, head=headers)
             req_2 = request(OptikServers_url, head=headers)
             req_4 = request(koyeb_url, head=headers)
             req_5 = request(OptikServers_url_2, head=headers)
-            req_6 = request(vercel_url, head=headers)
             req_7 = request(OptikServers_url_3, head=headers)
         if req.status_code == 200:
             print(req.status_code)
