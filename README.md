@@ -1,8 +1,8 @@
 # <p align="center">使用教程</p>
 
 
-### 1. 注意
-一、关于音源
+### 一. 注意
+1、关于音源
 
 音质最高支持320k。
 
@@ -10,7 +10,7 @@
 
 批量下载会被封禁IP，请规范使用！
 
-二、关于使用
+2、关于使用
 
 musicfree请在设置里选择：播放失败时暂停！
 
@@ -18,7 +18,7 @@ musicfree请在设置里选择：播放失败时暂停！
 
 ![img_3.png](source/注意1.png)
 
-### 2. 洛雪音乐
+### 二. 洛雪音乐
 
 软件请转跳下载: [点击下载 -> 洛雪音乐](https://github.com/lyswhut/lx-music-mobile/releases/download/v1.4.2/lx-music-mobile-v1.4.2-arm64-v8a.apk)
 
@@ -32,7 +32,7 @@ https://raw.niuma666bet.buzz/Huibq <huibq520@gmail.com>/keep-alive/master/render
 ![img_1.png](source/LxMusic.png)
 
 
-### 3. MusicFree
+### 三. MusicFree
 
 软件请转跳下载: [点击下载 -> MusicFree](https://github.com/maotoumao/MusicFree/releases/download/v0.3.0/MusicFree-0.3.0.apk)
 
