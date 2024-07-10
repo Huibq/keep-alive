@@ -32,10 +32,8 @@ while (time.time() - start_time) < 256:
         print("----------------")
         if req.status_code == 200:
             print(req.status_code)
-        if req.json()["code"] == 0:
-            print(req.text)
             number += 1
-            time.sleep(random.randint(10, 35))
+            time.sleep(random.randint(45, 90))
         else:
             print("失败！")
             time.sleep(random.randint(15, 48))
