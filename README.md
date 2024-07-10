@@ -7,9 +7,9 @@
 
 > 音质最高支持320k。
 >
-> 不支持数字专辑，反复请求可能会导致IP被封！
+> 不支持数字专辑，反复请求可能会导致`IP被封`！
 >
-> 仅供在线试听，禁止批量下载，批量下载会被封禁IP，请规范使用！
+> 仅供在线试听，禁止批量下载，批量下载会被`封禁IP`，请规范使用！
 
 #### 1.2 关于使用
 
@@ -48,4 +48,5 @@ https://raw.niuma666bet.buzz/Huibq <huibq520@gmail.com>/keep-alive/master/Music_
 ```
 
 - 教程请看png!
+
 ![img_2.png](source/MusicFree.png)
