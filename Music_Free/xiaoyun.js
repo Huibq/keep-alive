@@ -516,7 +516,7 @@ module.exports = {
     author: '-',
     version: "0.0.1",
     appVersion: ">0.1.0-alpha.0",
-    srcUrl: "unll",
+    srcUrl: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Huibq <huibq520@gmail.com>/keep-alive/master/Music_Free/xiaoyun.js",
     cacheControl: "no-store",
     hints: {
         importMusicSheet: [
