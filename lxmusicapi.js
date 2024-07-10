@@ -1,6 +1,6 @@
 /*!
  * @name vercel源
- * @description 使用vercel部署的音乐源，感谢落雪音乐及落雪音乐api-server项目，感谢简繁音乐的网易云解析，不支持kg，解析慢
+ * @description 使用vercel部署的音乐源，感谢落雪音乐及落雪音乐api-server项目，更换网易解析，暂时支持kg， 蜜桃酱提供CDN加速
  * @version v1.1.0
  * @author -
  * @repository https://github.com/lxmusics/lx-music-api-server
@@ -16,7 +16,7 @@ const API_KEY = 'share'
 // 全部的支持值: ['128k', '320k', 'flac', 'flac24bit']
 const MUSIC_QUALITY = {
   kw: ['128k', '320k', 'flac'],
-  kg: ['128k'],
+  kg: ['128k', '320k', 'flac'],
   tx: ['128k', '320k', 'flac'],
   wy: ['128k', '320k', 'flac'],
   mg: ['128k', '320k', 'flac'],
