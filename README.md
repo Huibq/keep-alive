@@ -23,7 +23,7 @@
 
 > 点击这里获取IP: [IP地址查询](https://ip125.com)
 >
-> 将IP发送到这个邮箱：wcisman8 + outlook.com  (请将+替换成@)
+> 将IP发送到这个邮箱：wcisman8@outlook.com
 
 ### 二. 洛雪音乐
 
