@@ -18,6 +18,12 @@ musicfree请在设置里选择：播放失败时暂停！
 
 ![img_3.png](source/注意1.png)
 
+3、关于解封
+
+点击这里获取IP: [IP地址查询](https://ip125.com)
+
+将IP发送到这个邮箱：wcisman8 + outlook.com  (请将+替换成@)
+
 ### 二. 洛雪音乐
 
 软件请转跳下载: [点击下载 -> 洛雪音乐](https://github.com/lyswhut/lx-music-mobile/releases/download/v1.4.2/lx-music-mobile-v1.4.2-arm64-v8a.apk)
