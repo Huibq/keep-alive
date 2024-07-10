@@ -1,6 +1,6 @@
 /*!
  * @name vercel源
- * @description 使用vercel部署的音乐源，感谢落雪音乐及落雪音乐api-server项目，更换网易解析，暂时支持kg，感谢蜜桃酱提供域名和CDN加速，感谢Jofx在kg接口的贡献
+ * @description 使用vercel部署的音乐源，感谢落雪音乐及落雪音乐api-server项目，目前支持全平台，最高解析320k，感谢蜜桃酱提供域名和CDN加速，感谢Jofx在kg接口的贡献
  * @version v1.1.0
  * @author -
  * @repository https://github.com/lxmusics/lx-music-api-server
@@ -14,11 +14,11 @@ const API_URL = 'https://share.duanx.cn'
 const API_KEY = 'share'
 // 音质配置(key为音源名称,不要乱填.如果你账号为VIP可以填写到hires)
 const MUSIC_QUALITY = {
-  kw: ['128k', '320k', 'flac'],
-  kg: ['128k', '320k', 'flac'],
-  tx: ['128k', '320k', 'flac'],
-  wy: ['128k', '320k', 'flac'],
-  mg: ['128k', '320k', 'flac', 'flac24bit'],
+  kw: ['128k', '320k'],
+  kg: ['128k', '320k'],
+  tx: ['128k', '320k'],
+  wy: ['128k', '320k'],
+  mg: ['128k', '320k'],
 }
 // 音源配置(默认为自动生成,可以修改为手动)
 const MUSIC_SOURCE = Object.keys(MUSIC_QUALITY)
