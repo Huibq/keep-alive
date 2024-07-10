@@ -1,0 +1,39 @@
+name: keep-alive
+
+# 触发条件
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '*/5 * * * *'
+
+env: # 设置环境变量
+  TZ: Asia/Shanghai
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: 迁出代码
+      uses: actions/checkout@v2
+    - name: 安装Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+    - name: 加载缓存
+      uses: actions/cache@v2
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-pip-${{ hashFiles('**/run_in_Actions/requirements.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
+    - name: 设置时区
+      run: sudo timedatectl set-timezone 'Asia/Shanghai'
+    - name: 安装依赖
+      run: |
+        pip install -r ./utils/requirements.txt
+    - name: 执行任务
+      env:
+        url: ${{secrets.url}}
+      run: |
+        python ./main.py
