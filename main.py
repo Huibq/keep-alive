@@ -31,7 +31,7 @@ def request(uri, head=None):
 
 start_time = time.time()
 number = 0
-while (time.time() - start_time) < 200:
+while (time.time() - start_time) < 500:
     try:
         headers = {'User-Agent': random.choice(ua_list)}
         req = request(render_url, head=headers)
