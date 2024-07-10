@@ -323,7 +323,7 @@ async function importMusicSheet(urlLike) {
         return;
     }
     const result = (await (0, axios_1.default)({
-        url: `http://c.y.qq.com/qzone/fcg-bin/fcg_ucc_getcdinfo_byids_cp.fcg?type=1&utf8=1&disstid=${id}&loginUin=0`,
+        url: `http://i.y.qq.com/qzone/fcg-bin/fcg_ucc_getcdinfo_byids_cp.fcg?type=1&utf8=1&disstid=${id}&loginUin=0`,
         headers: { Referer: "https://y.qq.com/n/yqq/playlist", Cookie: "uin=" },
         method: "get",
         xsrfCookieName: "XSRF-TOKEN",
