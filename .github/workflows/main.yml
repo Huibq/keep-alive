@@ -36,5 +36,6 @@ jobs:
       env:
         render_url: ${{secrets.render_url}}
         zeabur_url: ${{secrets.render_url}}
+        zeabur_url_key: ${{secrets.render_url_key}}
       run: |
         python ./main.py

@@ -5,6 +5,7 @@ import requests
 
 render_url = os.environ['render_url']
 zeabur_url = os.environ['zeabur_url']
+zeabur_url_key = os.environ['zeabur_url_key']
 ua_list = [
     'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.39',
     'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1788.0',
@@ -30,11 +31,13 @@ while (time.time() - start_time) < 256:
     try:
         headers = {'User-Agent': random.choice(ua_list)}
         req = request(render_url, head=headers)
+        headers['X-Request-Key'] = zeabur_url_key
         req2 = request(zeabur_url, head=headers)
         print("----------------")
         if req.status_code == 200:
             print(req.json()['data'])
             number += 1
+            print(req2.text)
             time.sleep(random.randint(45, 90))
         else:
             print("失败！")
