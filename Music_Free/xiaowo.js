@@ -504,8 +504,8 @@ async function getMusicInfo(musicItem) {
 }
 module.exports = {
     platform: "小蜗音乐",
-    author: '-',
-    version: "0.0.1",
+    author: 'Huibq <huibq520@gmail.com>',
+    version: "0.1.0",
     appVersion: ">0.1.0-alpha.0",
     srcUrl: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Huibq <huibq520@gmail.com>/keep-alive/master/Music_Free/xiaowo.js",
     cacheControl: "no-cache",

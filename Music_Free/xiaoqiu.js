@@ -454,8 +454,8 @@ async function getMediaSource(musicItem, quality) {
 }
 module.exports = {
     platform: "小秋音乐",
-    author: "-",
-    version: "0.0.1",
+    author: "Huibq <huibq520@gmail.com>",
+    version: "0.1.0",
     srcUrl: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Huibq <huibq520@gmail.com>/keep-alive/master/Music_Free/xiaoqiu.js",
     cacheControl: "no-cache",
     hints: {
