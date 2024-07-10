@@ -15,22 +15,21 @@ ua_list = [
 ]
 start_time = time.time()
 number = 0
-while number < 5:
+while (time.time() - start_time) < 996:
     try:
-        if (time.time() - start_time) > 110:
-            break
         headers = {'User-Agent': random.choice(ua_list)}
+        if number % 5 == 0:
+            req_2 = requests.get(OptikServers_url, headers=headers)
+            req_3 = requests.get(zeabur_url, headers=headers)
         req = requests.get(render_url, headers=headers)
-        req_2 = requests.get(OptikServers_url, headers=headers)
-        req_3 = requests.get(zeabur_url, headers=headers)
         if req.status_code == 200:
             print(req.status_code)
         if req.json()["code"] == 0:
             print(req.text)
             number += 1
-            time.sleep(3.5)
+            time.sleep(random.randint(2, 5))
         else:
             print("失败！")
-            time.sleep(10)
+            time.sleep(random.randint(5, 8))
     except Exception as e:
         print(e)
