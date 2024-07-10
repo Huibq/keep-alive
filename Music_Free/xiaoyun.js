@@ -394,7 +394,7 @@ async function getMediaSource(musicItem, quality) {
     const res = (
         await axios_1.default.get(`https://share.duanx.cn/url/wy/${musicItem.id}/${qualityLevels[quality]}`, {
             headers: {
-                "X-Request-Key": "test"
+                "X-Request-Key": "share"
             },
         })
     ).data;
