@@ -13,9 +13,12 @@ ua_list = [
     'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 uacq',
     'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36'
 ]
+start_time = time.time()
 number = 0
 while number < 5:
     try:
+        if (time.time() - start_time) > 110:
+            break
         headers = {'User-Agent': random.choice(ua_list)}
         req = requests.get(render_url, headers=headers)
         req_2 = requests.get(OptikServers_url, headers=headers)
