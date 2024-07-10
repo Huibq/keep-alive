@@ -1,4 +1,4 @@
-# <p align="center">使用教程</p>
+# <p align="center">注意事项&使用教程</p>
 
 
 ## 一. 注意
@@ -7,9 +7,11 @@
 
 > 音质最高支持320k。
 >
-> 不支持数字专辑，反复请求可能会导致`IP被封`！
+> 不支持数字专辑，反复请求可能会导致`封禁IP`！
 >
 > 仅供在线试听，禁止批量下载，批量下载会被`封禁IP`，请规范使用！
+> 
+> 尽量避免频繁切换歌曲，否则将导致封号`封禁IP`
 
 ### 1.2 关于使用
 
@@ -29,7 +31,7 @@
 
 > 软件请转跳下载: [安卓 -> 洛雪音乐](https://github.com/lyswhut/lx-music-mobile/releases)
 >
-> 软件请转跳下载: [Windows -> 洛雪音乐](https://github.com/lyswhut/lx-music-desktop/releases)
+> 软件请转跳下载: [Windows&MAC -> 洛雪音乐](https://github.com/lyswhut/lx-music-desktop/releases)
 
 - 洛雪音乐音源链接：
 ```any
@@ -44,7 +46,7 @@ https://raw.niuma666bet.buzz/Huibq <huibq520@gmail.com>/keep-alive/master/render
 
 > 软件请转跳下载: [安卓-> MusicFree](https://github.com/maotoumao/MusicFree/releases)
 >
-> 软件请转跳下载: [Windows -> MusicFree](https://github.com/maotoumao/MusicFreeDesktop/releases)
+> 软件请转跳下载: [Windows&MAC -> MusicFree](https://github.com/maotoumao/MusicFreeDesktop/releases)
 
 - MusicFree音源链接：
 ```any
