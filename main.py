@@ -2,7 +2,9 @@ import os
 import random
 import time
 import requests
-url = os.environ['url']
+render_url = os.environ['render_url']
+OptikServers_url = os.environ['OptikServers_url']
+zeabur_url = os.environ['zeabur_url']
 ua_list = [
     'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.39',
     'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1788.0',
@@ -15,7 +17,8 @@ number = 0
 while number < 5:
     try:
         headers = {'User-Agent': random.choice(ua_list)}
-        req = requests.get(url, headers=headers)
+        req = requests.get(OptikServers_url, headers=headers)
+        req_2 = requests.get(render_url, headers=headers)
         if req.status_code == 200:
             print(req.status_code)
         if req.json()["code"] == 0:
