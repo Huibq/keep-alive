@@ -1,6 +1,6 @@
 /*!
- * @name 测试源
- * @description 这是一个测试项目
+ * @name vercel源
+ * @description 使用vercel部署的音乐源，感谢落雪音乐及落雪音乐api-server项目，感谢简繁音乐的网易云解析，不支持kg，解析慢
  * @version v1.1.0
  * @author -
  * @repository https://github.com/lxmusics/lx-music-api-server
@@ -8,15 +8,15 @@
 
 // 是否开启开发模式
 const DEV_ENABLE = true
-// 服务端地址
-const API_URL = 'https://re.v443.cloudns.org'
+// 服务端地址 感谢蜜桃酱提供的域名
+const API_URL = 'https://share.duanx.cn'
 // 服务端配置的请求key
-const API_KEY = ''
+const API_KEY = 'share'
 // 音质配置(key为音源名称,不要乱填.如果你账号为VIP可以填写到hires)
 // 全部的支持值: ['128k', '320k', 'flac', 'flac24bit']
 const MUSIC_QUALITY = {
   kw: ['128k', '320k', 'flac'],
-  kg: ['128k', '320k', 'flac'],
+  kg: ['128k'],
   tx: ['128k', '320k', 'flac'],
   wy: ['128k', '320k', 'flac'],
   mg: ['128k', '320k', 'flac'],
