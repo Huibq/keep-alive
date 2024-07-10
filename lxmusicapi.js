@@ -7,7 +7,7 @@
  */
 
 // 是否开启开发模式
-const DEV_ENABLE = true
+const DEV_ENABLE = false
 // 服务端地址 感谢蜜桃酱提供的域名
 const API_URL = 'https://share.duanx.cn'
 // 服务端配置的请求key
