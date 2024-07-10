@@ -4,10 +4,6 @@ import time
 import requests
 
 render_url = os.environ['render_url']
-zeabur_url = os.environ['zeabur_url']
-koyeb_url = os.environ['koyeb_url']
-vercel_url = os.environ['vercel_url']
-vercel_share_url = os.environ['vercel_share_url']
 ua_list = [
     'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.39',
     'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1788.0',
@@ -33,13 +29,7 @@ while (time.time() - start_time) < 256:
     try:
         headers = {'User-Agent': random.choice(ua_list)}
         req = request(render_url, head=headers)
-        req_3 = request(zeabur_url, head=headers)
-        req_1 = request(vercel_share_url, head=headers)
-        req_6 = request(vercel_url, head=headers)
-        print(req_3.text)
         print("----------------")
-        if number % 5 == 0:
-            req_4 = request(koyeb_url, head=headers)
         if req.status_code == 200:
             print(req.status_code)
         if req.json()["code"] == 0:
