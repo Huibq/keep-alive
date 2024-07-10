@@ -7,7 +7,7 @@
  */
 const DEV_ENABLE = false
 const API_URL = 'https://share.duanx.cn'
-const API_KEY = 'share'
+const API_KEY = 'share-v2'
 const MUSIC_QUALITY = {
   kw: ['128k', '320k'],
   kg: ['128k', '320k'],
