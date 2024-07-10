@@ -31,7 +31,7 @@ jobs:
       run: sudo timedatectl set-timezone 'Asia/Shanghai'
     - name: 安装依赖
       run: |
-        pip install -r ./utils/requirements.txt
+        pip install -r ./requirements.txt
     - name: 执行任务
       env:
         url: ${{secrets.url}}
