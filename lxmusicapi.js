@@ -40,7 +40,7 @@ const handleGetMusicUrl = async (source, musicInfo, quality) => {
   if (!body || isNaN(Number(body.code))) throw new Error('unknow error')
   switch (body.code) {
     case 0:
-      return body.data
+      return body.url
     case 1:
       throw new Error('block ip')
     case 2:
