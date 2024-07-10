@@ -399,7 +399,7 @@ async function getMediaSource(musicItem, quality) {
         })
     ).data;
     return {
-        url: res.data,
+        url: res.url,
     };
 }
 const headers = {
