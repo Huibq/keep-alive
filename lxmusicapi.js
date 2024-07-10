@@ -1,18 +1,13 @@
 /*!
  * @name vercel源
- * @description 使用vercel部署的音乐源，感谢落雪音乐及落雪音乐api-server项目，目前支持全平台，最高解析320k，感谢蜜桃酱提供域名和CDN加速，感谢Jofx在kg接口的贡献
+ * @description 感谢落雪音乐及落雪音乐api-server项目，感谢蜜桃酱提供域名和CDN加速，感谢Jofx在kg接口的贡献
  * @version v1.1.0
- * @author -
+ * @author Huibq <huibq520@gmail.com>
  * @repository https://github.com/lxmusics/lx-music-api-server
  */
-
-// 是否开启开发模式
 const DEV_ENABLE = false
-// 服务端地址
 const API_URL = 'https://share.duanx.cn'
-// 服务端配置的请求key
 const API_KEY = 'share'
-// 音质配置(key为音源名称,不要乱填.如果你账号为VIP可以填写到hires)
 const MUSIC_QUALITY = {
   kw: ['128k', '320k'],
   kg: ['128k', '320k'],
@@ -20,14 +15,9 @@ const MUSIC_QUALITY = {
   wy: ['128k', '320k'],
   mg: ['128k', '320k'],
 }
-// 音源配置(默认为自动生成,可以修改为手动)
+// 目前支持全平台，最高解析320k
 const MUSIC_SOURCE = Object.keys(MUSIC_QUALITY)
-
-/**
- * 下面的东西就不要修改了
- */
 const { EVENT_NAMES, request, on, send, utils, env, version } = globalThis.lx
-
 const httpFetch = (url, options = { method: 'GET' }) => {
   return new Promise((resolve, reject) => {
     request(url, options, (err, resp) => {
@@ -36,7 +26,6 @@ const httpFetch = (url, options = { method: 'GET' }) => {
     })
   })
 }
-
 const handleGetMusicUrl = async (source, musicInfo, quality) => {
   const songId = musicInfo.hash ?? musicInfo.songmid
 
@@ -49,9 +38,7 @@ const handleGetMusicUrl = async (source, musicInfo, quality) => {
     },
   })
   const { body } = request
-
   if (!body || isNaN(Number(body.code))) throw new Error('unknow error')
-
   switch (body.code) {
     case 0:
       return body.data
@@ -69,7 +56,6 @@ const handleGetMusicUrl = async (source, musicInfo, quality) => {
       throw new Error(body.msg ?? 'unknow error')
   }
 }
-
 const musicSources = {}
 MUSIC_SOURCE.forEach(item => {
   musicSources[item] = {
@@ -79,7 +65,6 @@ MUSIC_SOURCE.forEach(item => {
     qualitys: MUSIC_QUALITY[item],
   }
 })
-
 on(EVENT_NAMES.request, ({ action, source, info }) => {
   switch (action) {
     case 'musicUrl':
