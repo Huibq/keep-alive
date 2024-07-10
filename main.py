@@ -2,12 +2,10 @@ import os
 import random
 import time
 import requests
-import re
 
 render_url = os.environ['render_url']
 zeabur_url = os.environ['zeabur_url']
 zeabur_url_key = os.environ['zeabur_url_key']
-depoly_api = os.environ['depoly_api']
 ua_list = [
     'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.39',
     'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1788.0',
@@ -40,12 +38,6 @@ while (time.time() - start_time) < 256:
             print(req.json()['data'])
             number += 1
             print(req2.text)
-            match = re.search(r"项目已运行：(\d+)秒", req.json()["data"])
-            if match:
-                runtime_seconds = int(match.group(1))
-                if runtime_seconds >= 172800:
-                    requests.get(depoly_api)
-                    break
             time.sleep(random.randint(45, 90))
         else:
             print("失败！")

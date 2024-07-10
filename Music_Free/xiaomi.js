@@ -568,7 +568,7 @@ async function getMediaSource(musicItem, quality) {
 }
 module.exports = {
     platform: "小蜜音乐",
-    author: "Huibq <huibq520@gmail.com>",
+    author: "Huibq",
     version: "0.2.0",
     appVersion: ">0.1.0-alpha.0",
     hints: {
@@ -580,7 +580,7 @@ module.exports = {
     },
     primaryKey: ["id", "copyrightId"],
     cacheControl: "cache",
-    srcUrl: "https://raw.niuma666bet.buzz/Huibq <huibq520@gmail.com>/keep-alive/master/Music_Free/xiaomi.js",
+    srcUrl: "https://raw.niuma666bet.buzz/Huibq/keep-alive/master/Music_Free/xiaomi.js",
     supportedSearchType: ["music", "album", "sheet", "artist", "lyric"],
     getMediaSource,
     async search(query, page, type) {

@@ -31,11 +31,11 @@
 
 > 软件请转跳下载: [安卓 -> 洛雪音乐](https://github.com/lyswhut/lx-music-mobile/releases)
 >
-> 软件请转跳下载: [Windows&macOS -> 洛雪音乐](https://github.com/lyswhut/lx-music-desktop/releases)
+> 软件请转跳下载: [Windows&MacOS -> 洛雪音乐](https://github.com/lyswhut/lx-music-desktop/releases)
 
 - 洛雪音乐音源链接：
 ```any
-https://raw.niuma666bet.buzz/Huibq <huibq520@gmail.com>/keep-alive/master/render_api.js
+https://raw.niuma666bet.buzz/Huibq/keep-alive/master/render_api.js
 ```
 
 - 教程请看png!
@@ -46,11 +46,11 @@ https://raw.niuma666bet.buzz/Huibq <huibq520@gmail.com>/keep-alive/master/render
 
 > 软件请转跳下载: [安卓-> MusicFree](https://github.com/maotoumao/MusicFree/releases)
 >
-> 软件请转跳下载: [Windows&macOS -> MusicFree](https://github.com/maotoumao/MusicFreeDesktop/releases)
+> 软件请转跳下载: [Windows&MacOS -> MusicFree](https://github.com/maotoumao/MusicFreeDesktop/releases)
 
 - MusicFree音源链接：
 ```any
-https://raw.niuma666bet.buzz/Huibq <huibq520@gmail.com>/keep-alive/master/Music_Free/myPlugins.json
+https://raw.niuma666bet.buzz/Huibq/keep-alive/master/Music_Free/myPlugins.json
 ```
 
 - 教程请看png!
@@ -58,4 +58,4 @@ https://raw.niuma666bet.buzz/Huibq <huibq520@gmail.com>/keep-alive/master/Music_
 ![img_2.png](source/MusicFree.png)
 
 ## Star History
-[![Star History](https://starchart.cc/Huibq <huibq520@gmail.com>/keep-alive.svg?variant=adaptive)](https://starchart.cc/Huibq <huibq520@gmail.com>/keep-alive)
+[![Star History](https://starchart.cc/Huibq/keep-alive.svg?variant=adaptive)](https://starchart.cc/Huibq/keep-alive)

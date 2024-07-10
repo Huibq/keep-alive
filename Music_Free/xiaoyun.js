@@ -513,10 +513,10 @@ async function getMusicSheetInfo(sheet, page) {
 }
 module.exports = {
     platform: "小芸音乐",
-    author: 'Huibq <huibq520@gmail.com>',
+    author: 'Huibq',
     version: "0.2.0",
     appVersion: ">0.1.0-alpha.0",
-    srcUrl: "https://raw.niuma666bet.buzz/Huibq <huibq520@gmail.com>/keep-alive/master/Music_Free/xiaoyun.js",
+    srcUrl: "https://raw.niuma666bet.buzz/Huibq/keep-alive/master/Music_Free/xiaoyun.js",
     cacheControl: "no-store",
     hints: {
         importMusicSheet: [

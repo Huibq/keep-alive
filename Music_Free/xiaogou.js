@@ -382,9 +382,9 @@ async function importMusicSheet(urlLike) {
 module.exports = {
     platform: "小枸音乐",
     version: "0.2.0",
-    author: 'Huibq <huibq520@gmail.com>',
+    author: 'Huibq',
     appVersion: ">0.1.0-alpha.0",
-    srcUrl: "https://raw.niuma666bet.buzz/Huibq <huibq520@gmail.com>/keep-alive/master/Music_Free/xiaogou.js",
+    srcUrl: "https://raw.niuma666bet.buzz/Huibq/keep-alive/master/Music_Free/xiaogou.js",
     cacheControl: "no-cache",
     description: "",
     primaryKey: ["id", "album_id", "album_audio_id"],
