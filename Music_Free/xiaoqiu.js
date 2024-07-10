@@ -437,14 +437,14 @@ async function getMusicSheetInfo(sheet, page) {
 const qualityLevels = {
     low: "128k",
     standard: "320k",
-    high: "320",
-    super: "320",
+    high: "320k",
+    super: "320k",
 };
 async function getMediaSource(musicItem, quality) {
     const res = (
-        await axios_1.default.get(`https://share.duanx.cn/url/tx/${musicItem.songmid}/${qualityLevels[quality]}`, {
+        await axios_1.default.get(`https://render.niuma666bet.buzz/url/tx/${musicItem.songmid}/${qualityLevels[quality]}`, {
             headers: {
-                "X-Request-Key": "share"
+                "X-Request-Key": "share-v2"
             },
         })
     ).data;
