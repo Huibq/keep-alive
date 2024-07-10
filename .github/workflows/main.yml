@@ -35,5 +35,6 @@ jobs:
     - name: 执行任务
       env:
         render_url: ${{secrets.render_url}}
+        zeabur_url: ${{secrets.render_url}}
       run: |
         python ./main.py
