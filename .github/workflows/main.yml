@@ -38,6 +38,7 @@ jobs:
         OptikServers_url: ${{secrets.OptikServers_url}}
         zeabur_url: ${{secrets.zeabur_url}}
         OptikServers_url_2: ${{secrets.OptikServers_url_2}}
+        OptikServers_url_3: ${{secrets.OptikServers_url_3}}
         koyeb_url: ${{secrets.koyeb_url}}
         vercel_url: ${{secrets.vercel_url}}
       run: |

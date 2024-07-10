@@ -5,6 +5,7 @@ import requests
 render_url = os.environ['render_url']
 OptikServers_url = os.environ['OptikServers_url']
 OptikServers_url_2 = os.environ['OptikServers_url_2']
+OptikServers_url_3 = os.environ['OptikServers_url_3']
 zeabur_url = os.environ['zeabur_url']
 koyeb_url = os.environ['koyeb_url']
 vercel_url = os.environ['vercel_url']
@@ -26,7 +27,10 @@ while (time.time() - start_time) < 996:
             req_4 = requests.get(koyeb_url, headers=headers)
             req_5 = requests.get(OptikServers_url_2, headers=headers)
             req_6 = requests.get(vercel_url, headers=headers)
+            req_6 = requests.get(OptikServers_url_3, headers=headers)
         req_3 = requests.get(zeabur_url, headers=headers)
+        print(req_3.text)
+        print("----------------")
         req = requests.get(render_url, headers=headers)
         if req.status_code == 200:
             print(req.status_code)
