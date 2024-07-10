@@ -27,7 +27,9 @@
 
 ### 二. 洛雪音乐
 
-> 软件请转跳下载: [点击下载 -> 洛雪音乐](https://github.com/lyswhut/lx-music-mobile/releases/download/v1.4.2/lx-music-mobile-v1.4.2-arm64-v8a.apk)
+> 软件请转跳下载: [安卓 -> 洛雪音乐](https://github.com/lyswhut/lx-music-mobile/releases)
+>
+> 软件请转跳下载: [Windows -> 洛雪音乐](https://github.com/lyswhut/lx-music-desktop/releases)
 
 洛雪音乐音源链接：
 ```any
@@ -40,7 +42,9 @@ https://raw.niuma666bet.buzz/Huibq <huibq520@gmail.com>/keep-alive/master/render
 
 ### 三. MusicFree
 
-> 软件请转跳下载: [点击下载 -> MusicFree](https://github.com/maotoumao/MusicFree/releases/download/v0.3.0/MusicFree-0.3.0.apk)
+> 软件请转跳下载: [安卓-> MusicFree](https://github.com/maotoumao/MusicFree/releases)
+>
+> 软件请转跳下载: [Windows -> MusicFree](https://github.com/maotoumao/MusicFreeDesktop/releases)
 
 - MusicFree音源链接：
 ```any
