@@ -19,7 +19,7 @@ const MUSIC_QUALITY = {
   kg: ['128k', '320k', 'flac'],
   tx: ['128k', '320k', 'flac'],
   wy: ['128k', '320k', 'flac'],
-  mg: ['128k', '320k', 'flac'],
+  mg: ['128k', '320k', 'flac', 'flac24bit'],
 }
 // 音源配置(默认为自动生成,可以修改为手动)
 const MUSIC_SOURCE = Object.keys(MUSIC_QUALITY)
