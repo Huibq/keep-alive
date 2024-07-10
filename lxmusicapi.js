@@ -1,7 +1,7 @@
 /*!
- * @name vercel源
- * @description 感谢落雪音乐及落雪音乐api-server项目，感谢蜜桃酱提供域名和CDN加速，感谢Jofx在kg接口的贡献
- * @version v1.1.0
+ * @name Huibq <huibq520@gmail.com>源
+ * @description 感谢落雪音乐及lx-music-api-server项目，感谢蜜桃酱提供域名和CDN加速，感谢Jofx在kg接口的贡献
+ * @version v1.2.0
  * @author Huibq <huibq520@gmail.com>
  * @repository https://github.com/lxmusics/lx-music-api-server
  */
@@ -15,7 +15,6 @@ const MUSIC_QUALITY = {
   wy: ['128k', '320k'],
   mg: ['128k', '320k'],
 }
-// 目前支持全平台，最高解析320k
 const MUSIC_SOURCE = Object.keys(MUSIC_QUALITY)
 const { EVENT_NAMES, request, on, send, utils, env, version } = globalThis.lx
 const httpFetch = (url, options = { method: 'GET' }) => {
