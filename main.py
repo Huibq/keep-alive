@@ -4,8 +4,6 @@ import time
 import requests
 
 render_url = os.environ['render_url']
-OptikServers_url = os.environ['OptikServers_url']
-OptikServers_url_2 = os.environ['OptikServers_url_2']
 zeabur_url = os.environ['zeabur_url']
 koyeb_url = os.environ['koyeb_url']
 vercel_url = os.environ['vercel_url']
@@ -41,9 +39,7 @@ while (time.time() - start_time) < 500:
         print(req_3.text)
         print("----------------")
         if number % 5 == 0:
-            req_2 = request(OptikServers_url, head=headers)
             req_4 = request(koyeb_url, head=headers)
-            req_5 = request(OptikServers_url_2, head=headers)
         if req.status_code == 200:
             print(req.status_code)
         if req.json()["code"] == 0:
