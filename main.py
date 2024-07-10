@@ -31,7 +31,7 @@ while (time.time() - start_time) < 256:
         req = request(render_url, head=headers)
         print("----------------")
         if req.status_code == 200:
-            print(req.status_code)
+            print(req.json()['data'])
             number += 1
             time.sleep(random.randint(45, 90))
         else:
