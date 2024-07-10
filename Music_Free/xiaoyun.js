@@ -366,7 +366,7 @@ async function getTopLists() {
                 .map((index, element) => {
                     const ele = $(element);
                     const id = ele.attr("data-res-id");
-                    const coverImg = ele.find("img").attr("src");
+                    const coverImg = ele.find("img").attr("src").replace(/(\.jpg\?).*/, ".jpg?param=800y800");
                     const title = ele.find("p.name").text();
                     const description = ele.find("p.s-fc4").text();
                     return {
@@ -387,8 +387,8 @@ async function getTopLists() {
 const qualityLevels = {
     low: "128k",
     standard: "320k",
-    high: "flac",
-    super: "flac",
+    high: "320k",
+    super: "320k",
 };
 async function getMediaSource(musicItem, quality) {
     const res = (
