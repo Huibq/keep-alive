@@ -580,7 +580,7 @@ module.exports = {
     },
     primaryKey: ["id", "copyrightId"],
     cacheControl: "cache",
-    srcUrl: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Huibq <huibq520@gmail.com>/keep-alive/master/Music_Free/xiaomi.js",
+    srcUrl: "https://raw.niuma666bet.buzz/Huibq <huibq520@gmail.com>/keep-alive/master/Music_Free/xiaomi.js",
     supportedSearchType: ["music", "album", "sheet", "artist", "lyric"],
     getMediaSource,
     async search(query, page, type) {

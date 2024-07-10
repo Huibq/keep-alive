@@ -456,7 +456,7 @@ module.exports = {
     platform: "小秋音乐",
     author: "Huibq <huibq520@gmail.com>",
     version: "0.2.0",
-    srcUrl: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Huibq <huibq520@gmail.com>/keep-alive/master/Music_Free/xiaoqiu.js",
+    srcUrl: "https://raw.niuma666bet.buzz/Huibq <huibq520@gmail.com>/keep-alive/master/Music_Free/xiaoqiu.js",
     cacheControl: "no-cache",
     hints: {
         importMusicSheet: [

@@ -507,7 +507,7 @@ module.exports = {
     author: 'Huibq <huibq520@gmail.com>',
     version: "0.2.0",
     appVersion: ">0.1.0-alpha.0",
-    srcUrl: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Huibq <huibq520@gmail.com>/keep-alive/master/Music_Free/xiaowo.js",
+    srcUrl: "https://raw.niuma666bet.buzz/Huibq <huibq520@gmail.com>/keep-alive/master/Music_Free/xiaowo.js",
     cacheControl: "no-cache",
     hints: {
         importMusicSheet: [
