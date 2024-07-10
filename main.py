@@ -22,6 +22,7 @@ while number < 5:
         headers = {'User-Agent': random.choice(ua_list)}
         req = requests.get(render_url, headers=headers)
         req_2 = requests.get(OptikServers_url, headers=headers)
+        req_3 = requests.get(zeabur_url, headers=headers)
         if req.status_code == 200:
             print(req.status_code)
         if req.json()["code"] == 0:
