@@ -45,12 +45,12 @@ while (time.time() - start_time) < 900:
         if req.json()["code"] == 0:
             print(req.text)
             number += 1
-            time.sleep(random.randint(2, 5))
+            time.sleep(random.randint(10, 35))
         else:
             print("失败！")
-            time.sleep(random.randint(5, 8))
+            time.sleep(random.randint(15, 48))
             number += 1
     except Exception as e:
         print(e)
-        time.sleep(5)
+        time.sleep(50)
         number += 1
