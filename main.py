@@ -4,7 +4,10 @@ import time
 import requests
 render_url = os.environ['render_url']
 OptikServers_url = os.environ['OptikServers_url']
+OptikServers_url_2 = os.environ['OptikServers_url_2']
 zeabur_url = os.environ['zeabur_url']
+koyeb_url = os.environ['koyeb_url']
+vercel_url = os.environ['vercel_url']
 ua_list = [
     'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.39',
     'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1788.0',
@@ -20,7 +23,10 @@ while (time.time() - start_time) < 996:
         headers = {'User-Agent': random.choice(ua_list)}
         if number % 5 == 0:
             req_2 = requests.get(OptikServers_url, headers=headers)
-            req_3 = requests.get(zeabur_url, headers=headers)
+            req_4 = requests.get(koyeb_url, headers=headers)
+            req_5 = requests.get(OptikServers_url_2, headers=headers)
+            req_6 = requests.get(vercel_url, headers=headers)
+        req_3 = requests.get(zeabur_url, headers=headers)
         req = requests.get(render_url, headers=headers)
         if req.status_code == 200:
             print(req.status_code)
