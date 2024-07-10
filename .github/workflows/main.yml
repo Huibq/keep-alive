@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
 
   schedule:
-    - cron: '*/30 * * * *'
+    - cron: '*/25 * * * *'
 
 env: # 设置环境变量
   TZ: Asia/Shanghai
