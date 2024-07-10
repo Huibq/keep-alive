@@ -1,6 +1,6 @@
 /*!
  * @name Huibq <huibq520@gmail.com>源
- * @description 感谢落雪音乐及lx-music-api-server项目，感谢蜜桃酱提供域名和CDN加速，感谢Jofx在kg接口的贡献
+ * @description 感谢洛雪音乐及lx-music-api-server项目，感谢蜜桃酱提供域名和CDN加速，感谢Jofx在kg接口的贡献
  * @version v1.2.0
  * @author Huibq <huibq520@gmail.com>
  * @repository https://github.com/lxmusics/lx-music-api-server
