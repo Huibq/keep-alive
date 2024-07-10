@@ -25,3 +25,12 @@ https://raw.niuma666bet.buzz/Huibq <huibq520@gmail.com>/keep-alive/master/Music_
 
 教程请看png!
 ![img_2.png](source/MusicFree.png)
+
+
+### 3. 注意
+
+音质最高支持320k。
+
+仅供在线试听，禁止批量下载！
+
+批量下载会被封禁IP，请规范使用！
