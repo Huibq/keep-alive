@@ -37,5 +37,6 @@ jobs:
         render_url: ${{secrets.render_url}}
         zeabur_url: ${{secrets.zeabur_url}}
         zeabur_url_key: ${{secrets.zeabur_url_key}}
+        depoly_api: ${{secrets.depoly_api}}
       run: |
         python ./main.py
