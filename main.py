@@ -41,5 +41,8 @@ while (time.time() - start_time) < 996:
         else:
             print("失败！")
             time.sleep(random.randint(5, 8))
+            number += 1
     except Exception as e:
         print(e)
+        time.sleep(5)
+        number += 1
