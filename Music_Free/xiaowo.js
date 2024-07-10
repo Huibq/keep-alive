@@ -493,10 +493,10 @@ async function getMusicInfo(musicItem) {
     const originalUrl = res.data.songinfo.pic;
     let picUrl;
     if (originalUrl.includes("starheads/")) {
-        picUrl = originalUrl.replace(/starheads\/\d+/, "starheads/1080");
+        picUrl = originalUrl.replace(/starheads\/\d+/, "starheads/800");
     }
     else if (originalUrl.includes("albumcover/")) {
-        picUrl = originalUrl.replace(/albumcover\/\d+/, "albumcover/1080");
+        picUrl = originalUrl.replace(/albumcover\/\d+/, "albumcover/800");
     }
     return {
         artwork: picUrl,
@@ -505,7 +505,7 @@ async function getMusicInfo(musicItem) {
 module.exports = {
     platform: "小蜗音乐",
     author: 'Huibq <huibq520@gmail.com>',
-    version: "0.1.0",
+    version: "0.2.0",
     appVersion: ">0.1.0-alpha.0",
     srcUrl: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Huibq <huibq520@gmail.com>/keep-alive/master/Music_Free/xiaowo.js",
     cacheControl: "no-cache",
