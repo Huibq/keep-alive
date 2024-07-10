@@ -1,6 +1,6 @@
 /*!
  * @name vercel源
- * @description 使用vercel部署的音乐源，感谢落雪音乐及落雪音乐api-server项目，更换网易解析，暂时支持kg， 蜜桃酱提供CDN加速
+ * @description 使用vercel部署的音乐源，感谢落雪音乐及落雪音乐api-server项目，更换网易解析，暂时支持kg，蜜桃酱提供CDN加速
  * @version v1.1.0
  * @author -
  * @repository https://github.com/lxmusics/lx-music-api-server
