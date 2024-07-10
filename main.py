@@ -2,6 +2,7 @@ import os
 import random
 import time
 import requests
+
 render_url = os.environ['render_url']
 OptikServers_url = os.environ['OptikServers_url']
 OptikServers_url_2 = os.environ['OptikServers_url_2']
@@ -17,21 +18,32 @@ ua_list = [
     'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 uacq',
     'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36'
 ]
+
+
+def request(uri, head=None):
+    try:
+        info = requests.get(uri, headers=head)
+        return info
+    except Exception as c:
+        print(c)
+        return None
+
+
 start_time = time.time()
 number = 0
 while (time.time() - start_time) < 996:
     try:
         headers = {'User-Agent': random.choice(ua_list)}
-        if number % 5 == 0:
-            req_2 = requests.get(OptikServers_url, headers=headers)
-            req_4 = requests.get(koyeb_url, headers=headers)
-            req_5 = requests.get(OptikServers_url_2, headers=headers)
-            req_6 = requests.get(vercel_url, headers=headers)
-            req_6 = requests.get(OptikServers_url_3, headers=headers)
-        req_3 = requests.get(zeabur_url, headers=headers)
+        req = request(render_url, head=headers)
+        req_3 = request(zeabur_url, head=headers)
         print(req_3.text)
         print("----------------")
-        req = requests.get(render_url, headers=headers)
+        if number % 5 == 0:
+            req_2 = request(OptikServers_url, head=headers)
+            req_4 = request(koyeb_url, head=headers)
+            req_5 = request(OptikServers_url_2, head=headers)
+            req_6 = request(vercel_url, head=headers)
+            req_7 = request(OptikServers_url_3, head=headers)
         if req.status_code == 200:
             print(req.status_code)
         if req.json()["code"] == 0:
