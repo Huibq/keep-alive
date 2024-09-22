@@ -5,7 +5,7 @@
  * @author Huibq
  */
 const DEV_ENABLE = false
-const API_URL = 'https://render.niuma666bet.buzz'
+const API_URL = 'https://lxmusicapi.onrender.com'
 const API_KEY = 'share-v2'
 const MUSIC_QUALITY = {
   kw: ['128k', '320k'],
