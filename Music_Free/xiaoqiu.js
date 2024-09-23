@@ -455,7 +455,7 @@ async function getMediaSource(musicItem, quality) {
 module.exports = {
     platform: "小秋音乐",
     author: "Huibq",
-    version: "0.2.0",
+    version: "0.3.0",
     srcUrl: "https://raw.niuma666bet.buzz/Huibq/keep-alive/master/Music_Free/xiaoqiu.js",
     cacheControl: "no-cache",
     hints: {

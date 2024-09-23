@@ -381,7 +381,7 @@ async function importMusicSheet(urlLike) {
 }
 module.exports = {
     platform: "小枸音乐",
-    version: "0.2.0",
+    version: "0.3.0",
     author: 'Huibq',
     appVersion: ">0.1.0-alpha.0",
     srcUrl: "https://raw.niuma666bet.buzz/Huibq/keep-alive/master/Music_Free/xiaogou.js",

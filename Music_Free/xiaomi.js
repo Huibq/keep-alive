@@ -569,7 +569,7 @@ async function getMediaSource(musicItem, quality) {
 module.exports = {
     platform: "小蜜音乐",
     author: "Huibq",
-    version: "0.2.0",
+    version: "0.3.0",
     appVersion: ">0.1.0-alpha.0",
     hints: {
         importMusicSheet: [
