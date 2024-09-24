@@ -9,8 +9,8 @@ const API_URL = 'https://lxmusicapi.onrender.com'
 const API_KEY = 'share-v2'
 const MUSIC_QUALITY = {
   kw: ['128k', '320k'],
-  kg: ['128k', '320k'],
-  tx: ['128k', '320k', 'flac', 'flac24bit'],
+  kg: ['128k'],
+  tx: ['128k', '320k'],
   wy: ['128k', '320k'],
   mg: ['128k', '320k'],
 }
