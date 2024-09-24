@@ -1,6 +1,6 @@
 /*!
  * @name Huibq_lxmusic源
- * @description Github搜索“洛雪音乐音源”，反馈可前往GitHub提Issues或加入群组https://t.me/+Xh7BWUUPqUZlMDU1，禁止批量下载！
+ * @description Github搜索“洛雪音乐音源”，禁止批量下载！
  * @version v1.2.0
  * @author Huibq
  */
