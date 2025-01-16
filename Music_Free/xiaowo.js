@@ -507,7 +507,7 @@ module.exports = {
     author: 'Huibq',
     version: "0.3.0",
     appVersion: ">0.1.0-alpha.0",
-    srcUrl: "https://raw.niuma666bet.buzz/Huibq/keep-alive/master/Music_Free/xiaowo.js",
+    srcUrl: "https://fastly.jsdelivr.net/gh/Huibq/keep-alive/Music_Free/xiaowo.js",
     cacheControl: "no-cache",
     hints: {
         importMusicSheet: [

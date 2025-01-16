@@ -384,7 +384,7 @@ module.exports = {
     version: "0.3.0",
     author: 'Huibq',
     appVersion: ">0.1.0-alpha.0",
-    srcUrl: "https://raw.niuma666bet.buzz/Huibq/keep-alive/master/Music_Free/xiaogou.js",
+    srcUrl: "https://fastly.jsdelivr.net/gh/Huibq/keep-alive/Music_Free/xiaogou.js",
     cacheControl: "no-cache",
     description: "",
     primaryKey: ["id", "album_id", "album_audio_id"],

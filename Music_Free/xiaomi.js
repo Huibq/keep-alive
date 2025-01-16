@@ -580,7 +580,7 @@ module.exports = {
     },
     primaryKey: ["id", "copyrightId"],
     cacheControl: "cache",
-    srcUrl: "https://raw.niuma666bet.buzz/Huibq/keep-alive/master/Music_Free/xiaomi.js",
+    srcUrl: "https://fastly.jsdelivr.net/gh/Huibq/keep-alive/Music_Free/xiaomi.js",
     supportedSearchType: ["music", "album", "sheet", "artist", "lyric"],
     getMediaSource,
     async search(query, page, type) {

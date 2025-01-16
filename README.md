@@ -33,7 +33,7 @@
 
 - 洛雪音乐音源链接：
 ```any
-https://raw.niuma666bet.buzz/Huibq/keep-alive/master/render_api.js
+https://fastly.jsdelivr.net/gh/Huibq/keep-alive/render_api.js
 ```
 
 - 教程请看png!
@@ -48,7 +48,7 @@ https://raw.niuma666bet.buzz/Huibq/keep-alive/master/render_api.js
 
 - MusicFree音源链接：
 ```any
-https://raw.niuma666bet.buzz/Huibq/keep-alive/master/Music_Free/myPlugins.json
+https://fastly.jsdelivr.net/gh/Huibq/keep-alive/Music_Free/myPlugins.json
 ```
 
 - 教程请看png!
