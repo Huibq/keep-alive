@@ -5,9 +5,9 @@ on:
   workflow_dispatch:
 
   schedule:
-    - cron: '0 * * * *'
+    - cron: '0 0 */3 * *'
 
-env: # 设置环境变量
+env:
   TZ: Asia/Shanghai
 
 jobs:
@@ -19,7 +19,7 @@ jobs:
     - name: 安装Python
       uses: actions/setup-python@v2
       with:
-        python-version: '3.x'
+        python-version: '3.10'
     - name: 加载缓存
       uses: actions/cache@v4
       with:
@@ -35,7 +35,7 @@ jobs:
     - name: 执行任务
       env:
         render_url: ${{secrets.render_url}}
-        zeabur_url: ${{secrets.zeabur_url}}
-        zeabur_url_key: ${{secrets.zeabur_url_key}}
+        render_key: ${{secrets.render_key}}
+        header_key: ${{secrets.header_key}}
       run: |
         python ./main.py
