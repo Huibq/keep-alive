@@ -558,7 +558,7 @@ async function getMediaSource(musicItem, quality) {
     const res = (
         await axios_1.default.get(`https://lxmusicapi.onrender.com/url/mg/${musicItem.id}/${qualityLevels[quality]}`, {
             headers: {
-                "X-Request-Key": "share-v2"
+                "X-Request-Key": "share-v3"
             },
         })
     ).data;
